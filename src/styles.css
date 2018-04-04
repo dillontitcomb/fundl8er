@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+h3 {
+  font-weight: bold;
+  font-family: 'Amatic SC', cursive;
+  font-size: 150px;
+}
+
+#titleCursiveText {
+  font-size: 70px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+
+}
+
+#crowd-funding{
+  border: 5px solid white;
+  box-shadow: #555 1px 1px 8px 1px;
+  margin-left: 95px;
+  margin-top: 50px;
+  width: 750px;
+}
+
+.main-content{
+  background-color: #E7F9F5;
+  padding-bottom: 540px;
+}
