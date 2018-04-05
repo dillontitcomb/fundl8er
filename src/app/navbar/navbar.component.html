@@ -1,26 +1,31 @@
 <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
-  <a class="navbar-brand" href="#">Fundl8r</a>
+  <a class="navbar-brand" href="#">SquadFund</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Explore <span class="sr-only">(current)</span></a>
+      <li routerLinkActive ="active current">
+        <a class="nav-link" routerLink="browse">Explore <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Get Funding</a>
+      <li class="nav-item ">
+        <a class="nav-link" routerLink="apply">Get Funding</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           About
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Our Story</a>
-          <a class="dropdown-item" href="#">Contact Us</a>
-          <a class="dropdown-item" href="#">Work for Fundl8r</a>
+          <a class="dropdown-item" routerLink="about">Our Story</a>
+          <a class="dropdown-item" routerLink="contact">Contact Us</a>
+          <a class="dropdown-item" routerLink="jobs">Work for SquadFund</a>
         </div>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+      <a class="nav-link"  routerLink="login">Login<span class="sr-only">(current)</span></a>
       </li>
     </ul>
   </div>

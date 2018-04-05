@@ -1,14 +1,14 @@
 .navbar-brand {
   font-family: 'Amatic SC', cursive;
-  font-size: 50px;
+  font-size: 5vw;
   font-weight: bolder;
-
 }
 
 .nav-link{
   font-family: 'Amatic SC', cursive;
-  font-size: 35px;
+  font-size: 3.5vw;
   font-weight: bold;
+  
 }
 
 #navbar {
@@ -17,6 +17,10 @@
 
 .dropdown-item{
   font-family: 'Amatic SC', cursive;
-  font-size: 30px;
+  font-size: 2.75vw;
   font-weight: bold;
+}
+
+#loginText{
+  margin-left: 450px;
 }
